@@ -3,7 +3,6 @@ import * as api from "../api";
 import VideoCard from "../components/VideoCard";
 import { AuthContext } from "../context/AuthContext";
 import Spinner from "../components/Common/Spinner";
-// We are no longer importing the PremiumBanner
 import styles from "./HomePage.module.css";
 import toast from "react-hot-toast";
 
@@ -57,7 +56,6 @@ const HomePage = () => {
   }
 
   return (
-    // The <PremiumBanner /> component has been removed from the top
     <>
       <div className={styles.filterTags}>
         <button
