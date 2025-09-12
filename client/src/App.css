@@ -20,7 +20,6 @@
   padding: 2rem;
 }
 
-/* Custom scrollbar styling */
 .page-wrapper::-webkit-scrollbar {
   width: 8px;
 }
@@ -43,7 +42,6 @@
   }
 }
 
-/* For Mobile Phones */
 @media (max-width: 768px) {
   .app-container {
   }
