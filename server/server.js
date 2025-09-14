@@ -22,5 +22,5 @@ app.use(express.static(buildPath));
 app.get('*', (req, res) => {
   res.sendFile(path.join(buildPath, 'index.html'));
 });
-const PORT = process.env.PORT || 10000; // Use Render's port
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => logger.info(`Server running on port ${PORT}`));
